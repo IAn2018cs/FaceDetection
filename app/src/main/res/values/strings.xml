@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">刷脸用餐</string>
+    <string name="face_clock_try_again">再试一次</string>
+    <string name="face_clock_unregistered">您还未开通哦！</string>
+    <string name="interface_error_msg1">服务器小哥休息了</string>
+    <string name="interface_error_msg2">如有需要，请联系助理</string>
+    <string name="interface_error_msg3">"联系电话：13581998485\n邮箱：zhangye5@jd.com"</string>
+    <string name="launch_eat_time">"早餐：07:30 — 09:00\n午餐：12:00 — 13:30\n晚餐：18:00 — 19:00"</string>
+    <string name="launch_touch">轻触唤起</string>
+    <string name="no_network_msg1">网络走丢了</string>
+    <string name="no_network_msg2">请您重新选择网络</string>
+</resources>

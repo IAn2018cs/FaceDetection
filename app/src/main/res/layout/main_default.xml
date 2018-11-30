@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pl_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/iv_splash"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/launch_default_bg" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        app:layout_heightPercent="11.300003%"
+        app:layout_marginTopPercent="9.800005%"
+        app:layout_widthPercent="50.5%" />
+
+    <ImageView
+        android:id="@+id/iv_bg_title"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_below="@id/iv_logo"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:src="@drawable/default_title_text"
+        app:layout_heightPercent="4.799998%"
+        app:layout_marginTopPercent="2.4000049%"
+        app:layout_widthPercent="25.399994%" />
+
+    <ImageView
+        android:id="@+id/iv_kuang"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_below="@id/iv_bg_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:src="@drawable/launch_default_kuang"
+        app:layout_heightPercent="27.999996%"
+        app:layout_marginTopPercent="12.0%" />
+
+    <ImageView
+        android:id="@+id/iv_middle_icon"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_below="@id/iv_bg_title"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_default_face"
+        app:layout_heightPercent="28.400003%"
+        app:layout_marginLeftPercent="4.2999983%"
+        app:layout_marginRightPercent="4.2999983%"
+        app:layout_marginTopPercent="12.0%"
+        app:layout_widthPercent="37.300003%" />
+
+    <TextView
+        android:id="@+id/tv_touch"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_below="@id/iv_middle_icon"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/launch_touch"
+        android:textColor="#ffffffff"
+        android:textSize="24.0sp"
+        app:layout_heightPercent="4.100001%"
+        app:layout_marginTopPercent="1.9000053%"
+        app:layout_widthPercent="15.999996%" />
+
+    <TextView
+        android:id="@+id/tv_eat_time"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_below="@id/iv_kuang"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/launch_eat_time"
+        android:textColor="#ff35a3ff"
+        android:textSize="20.0sp"
+        app:layout_heightPercent="10.500002%"
+        app:layout_marginTopPercent="12.300003%"
+        app:layout_widthPercent="29.999996%" />
+</android.support.percent.PercentRelativeLayout>

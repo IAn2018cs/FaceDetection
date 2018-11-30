@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_before"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/app_bg"
+    android:visibility="invisible">
+
+    <com.jdjr.courtcanteen.view.TimeTextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="11:20:00"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/time_text_view_size"
+        app:layout_marginTopPercent="1.9999981%" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_time"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="互联网法院刷脸用餐"
+        android:textColor="#ffffffff"
+        android:textSize="36.0sp"
+        app:layout_marginTopPercent="0.8000016%" />
+
+    <ImageView
+        android:id="@+id/iv_eat_num_bg"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/eat_number_bg"
+        app:layout_heightPercent="14.499998%"
+        app:layout_marginBottomPercent="1.9999981%"
+        app:layout_marginLeftPercent="5.9999943%"
+        app:layout_widthPercent="31.799995%" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_eat_num_bg"
+        android:text="已用餐人数"
+        android:textColor="#ffa9dbff"
+        android:textSize="32.0sp"
+        app:layout_marginLeftPercent="11.800003%"
+        app:layout_marginTopPercent="2.9999971%" />
+
+    <TextView
+        android:id="@+id/tv_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/iv_eat_num_bg"
+        android:layout_alignTop="@id/iv_eat_num_bg"
+        android:text="30"
+        android:textColor="#ffffffff"
+        android:textSize="24.0sp"
+        app:layout_marginLeftPercent="18.400002%"
+        app:layout_marginTopPercent="9.200001%" />
+
+    <TextView
+        android:id="@+id/tv_eat_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/iv_eat_num_bg"
+        android:layout_alignTop="@id/iv_eat_num_bg"
+        android:text="18"
+        android:textColor="#ffffffff"
+        android:textSize="46.0sp"
+        app:layout_marginLeftPercent="9.200001%"
+        app:layout_marginTopPercent="6.400001%" />
+</android.support.percent.PercentRelativeLayout>

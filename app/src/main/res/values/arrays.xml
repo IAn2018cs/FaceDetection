@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="scanning">
+        <item>@drawable/scan_0</item>
+        <item>@drawable/scan_1</item>
+        <item>@drawable/scan_2</item>
+        <item>@drawable/scan_3</item>
+        <item>@drawable/scan_4</item>
+        <item>@drawable/scan_5</item>
+        <item>@drawable/scan_6</item>
+        <item>@drawable/scan_7</item>
+        <item>@drawable/scan_8</item>
+        <item>@drawable/scan_9</item>
+        <item>@drawable/scan_10</item>
+        <item>@drawable/scan_11</item>
+        <item>@drawable/scan_12</item>
+        <item>@drawable/scan_13</item>
+        <item>@drawable/scan_14</item>
+        <item>@drawable/scan_15</item>
+        <item>@drawable/scan_16</item>
+        <item>@drawable/scan_17</item>
+        <item>@drawable/scan_18</item>
+        <item>@drawable/scan_19</item>
+        <item>@drawable/scan_20</item>
+        <item>@drawable/scan_21</item>
+        <item>@drawable/scan_22</item>
+        <item>@drawable/scan_23</item>
+        <item>@drawable/scan_24</item>
+        <item>@drawable/scan_25</item>
+        <item>@drawable/scan_26</item>
+        <item>@drawable/scan_27</item>
+        <item>@drawable/scan_28</item>
+        <item>@drawable/scan_29</item>
+        <item>@drawable/scan_30</item>
+        <item>@drawable/scan_31</item>
+        <item>@drawable/scan_32</item>
+        <item>@drawable/scan_33</item>
+        <item>@drawable/scan_34</item>
+        <item>@drawable/scan_35</item>
+        <item>@drawable/scan_36</item>
+        <item>@drawable/scan_37</item>
+        <item>@drawable/scan_38</item>
+        <item>@drawable/scan_39</item>
+        <item>@drawable/scan_40</item>
+        <item>@drawable/scan_41</item>
+        <item>@drawable/scan_42</item>
+        <item>@drawable/scan_43</item>
+        <item>@drawable/scan_44</item>
+        <item>@drawable/scan_45</item>
+        <item>@drawable/scan_46</item>
+        <item>@drawable/scan_47</item>
+        <item>@drawable/scan_48</item>
+        <item>@drawable/scan_49</item>
+        <item>@drawable/scan_50</item>
+    </array>
+</resources>

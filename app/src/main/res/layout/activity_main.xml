@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <include layout="@layout/main_default" />
+
+    <com.jdjr.courtcanteen.view.CameraTextureView
+        android:id="@id/main_textureview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.0" />
+
+    <include layout="@layout/main_before_background" />
+
+    <include layout="@layout/main_no_network" />
+
+    <include layout="@layout/main_interface_error" />
+
+    <include layout="@layout/main_card_tip" />
+
+    <ImageView
+        android:id="@+id/iv_scanning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/anim_scanning_face_rect"
+        android:visibility="invisible" />
+
+    <include layout="@layout/main_scan_success_rect" />
+</FrameLayout>
